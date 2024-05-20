@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Platforms>AnyCPU</Platforms>
+    <AlgoType>Indicator</AlgoType>
+    <AssemblyName>rsi_indicator</AssemblyName>
+    <RootNamespace>rsi_indicator</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\Lion\Desktop\Quantower\TradingPlatform\v1.138.15\..\..\Settings\Scripts\Indicators\rsi_indicator</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\Users\Lion\Desktop\Quantower\TradingPlatform\v1.138.15\..\..\Settings\Scripts\Indicators\rsi_indicator</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Algorum.Quant.Types" Version="1.0.45" />
+    <PackageReference Include="JollyWizard.Quantower.IndicatorDeploy" Version="1.0.1" />
+    <PackageReference Include="JollyWizard.Quantower.Setup" Version="1.0.0" />
+    <PackageReference Include="NuGet.Frameworks" Version="6.9.1" />
+    <PackageReference Include="QuanTAlib" Version="0.2.26" />
+    <PackageReference Include="StockSharp.Algo" Version="5.0.184" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="TradingPlatform.BusinessLayer">
+      <HintPath>C:\Users\Lion\Desktop\Quantower\TradingPlatform\v1.138.15\bin\TradingPlatform.BusinessLayer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

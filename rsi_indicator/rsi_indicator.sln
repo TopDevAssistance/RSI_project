@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34902.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rsi_indicator", "rsi_indicator.csproj", "{33B89630-26EA-4274-824B-D6F1F5E186C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndicatorTestApp", "..\IndicatorTestApp\IndicatorTestApp.csproj", "{67A202B5-FFF4-456C-B499-BB6C4CBBACCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33B89630-26EA-4274-824B-D6F1F5E186C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B89630-26EA-4274-824B-D6F1F5E186C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B89630-26EA-4274-824B-D6F1F5E186C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B89630-26EA-4274-824B-D6F1F5E186C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A202B5-FFF4-456C-B499-BB6C4CBBACCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A202B5-FFF4-456C-B499-BB6C4CBBACCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A202B5-FFF4-456C-B499-BB6C4CBBACCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A202B5-FFF4-456C-B499-BB6C4CBBACCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {799FA02B-CFED-4BE6-B796-C68F095431D8}
+	EndGlobalSection
+EndGlobal

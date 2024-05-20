@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)wmilight\5.1.1\build\WmiLight.targets" Condition="Exists('$(NuGetPackageRoot)wmilight\5.1.1\build\WmiLight.targets')" />
+    <Import Project="$(NuGetPackageRoot)jollywizard.quantower.indicatordeploy\1.0.1\build\net48\JollyWizard.Quantower.IndicatorDeploy.targets" Condition="Exists('$(NuGetPackageRoot)jollywizard.quantower.indicatordeploy\1.0.1\build\net48\JollyWizard.Quantower.IndicatorDeploy.targets')" />
+  </ImportGroup>
+</Project>

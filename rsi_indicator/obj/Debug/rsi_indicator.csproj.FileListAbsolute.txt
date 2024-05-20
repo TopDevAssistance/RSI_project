@@ -1,0 +1,12 @@
+E:\rsi_indicator\obj\Debug\rsi_indicator.GeneratedMSBuildEditorConfig.editorconfig
+E:\rsi_indicator\obj\Debug\rsi_indicator.AssemblyInfoInputs.cache
+E:\rsi_indicator\obj\Debug\rsi_indicator.AssemblyInfo.cs
+E:\rsi_indicator\obj\Debug\rsi_indicator.csproj.CoreCompileInputs.cache
+E:\rsi_indicator\obj\Debug\rsi_indicator.csproj.AssemblyReference.cache
+C:\Users\Lion\Desktop\Quantower\Settings\Scripts\Indicators\rsi_indicator\rsi_indicator.deps.json
+C:\Users\Lion\Desktop\Quantower\Settings\Scripts\Indicators\rsi_indicator\rsi_indicator.dll
+C:\Users\Lion\Desktop\Quantower\Settings\Scripts\Indicators\rsi_indicator\rsi_indicator.pdb
+E:\rsi_indicator\obj\Debug\rsi_indicator.dll
+E:\rsi_indicator\obj\Debug\refint\rsi_indicator.dll
+E:\rsi_indicator\obj\Debug\rsi_indicator.pdb
+E:\rsi_indicator\obj\Debug\ref\rsi_indicator.dll
